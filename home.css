@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+    padding: 0;
+    margin: 0;
+}
+
+.limita-largura{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%; 
+}
+
+.secao-topo{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+.container-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.texto-azul{
+    color: #5889c5;
+}
+.link-logotipo{
+    flex: 1 0 60%;
+}
+.link-logotipo a{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 24px;
+}
+.links{
+   flex: 1 0 150px;
+   display: flex;
+   justify-content: space-between;
+}
+.link-topo{
+    text-decoration: none;
+    color: #4a4a4a;
+    text-transform: uppercase;
+}
+/* FINAL DA SEÇÃO TOPO */
+
+
+/* CONTEÚDO BANNER */
+.secao-banner{
+    width: 100%;
+    background-image: url("./assets/img-fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-tranparente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #0a9077b3;
+    gap: 40px;
+    font-size: 28px;
+}
+/* FINAL DA SEÇÃO DO CONTEÚDO BANNER */
+
+
+
+/* PARTES DOS CONTEÚDOS CONTAINERS */
+.secao-container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 100px 20px;
+    text-align: center;
+}
+/* FINAL DAS PARTES DOS CONTEÚDOS CONTAINERS */
+
+
+
+/* SEÇÃO INFORMAÇÃO */
+.secao-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.secao-info h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+/* FIM SEÇÃO INFOMAÇÃO */
+
+
+/* SEÇÃO DA APRESENTAÇÃO DA IMAGENS DOS QUARTOS */
+.imagens-quartos img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.apresentacao-quartos{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.imagens-quartos{
+    flex: 1 0 250px; 
+    padding-bottom: 10px;
+    border-bottom: 2px solid #197a05;
+}
+.imagens-quartos a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+#rota {
+    padding: 0px;
+}
+
+/* FINAL DA SEÇÃO DA APRENTAÇÃO DOS QUARTOS */
+
+
+
+/* AQUI O ESTILO DA SEÇÃO SOBRE */
+.secao-container-info{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.container-info{
+    display: flex;
+    flex: 1 0 350px;
+    height: 130px;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+.secao-container-descricao{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 10px;
+}
+.imagens-info{
+   width: 30%;
+   height: 100%;
+}
+.imagens-info img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* FINAL DA SEÇÃO SOBRE */
+
+
+
+
+
+.rodape{
+    background-color: #49997d;
+    color: white;
+}
+.container-rodape{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 30px;
+
+}
+.info-rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 300px;
+}
+.info-rodape h4{
+    font-size: 22px;
+}
+.info-rodape a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.info-rodape p{
+    margin-left: 10px;
+}
+.info-rodape img{
+    width: 40px;
+    height: 40px;
+}
+.copyright{
+    border-top: 1px solid #3b7863;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
